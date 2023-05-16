@@ -1,0 +1,72 @@
+.profile , .projects , .hobbies{
+
+   background-color:#D6CDA4;
+}
+.section{
+   height: 400px;
+}
+.footer{
+
+   background-color:#3D8361;
+   color:#EEF2E6;
+}
+
+
+.intro{
+
+   display: flex;
+   justify-content: center;
+   background-color:black;
+}
+
+@media (max-width :800px){
+
+   .intro-img{
+      height: 250px;
+     
+   }
+}
+
+@media (max-width :1200px) and (min-width:801px){
+
+   .intro-img{
+      height: 600px;
+   }
+}
+
+/* styling heading in hobbiessection  */
+.mel{
+
+ 
+  border-top:white solid 2px  ;
+   padding-top: 15px;
+   padding-left: 35px;
+   font-family: cursive;
+   background-color: #D6CDA4;
+   margin-bottom: 0;
+   
+}
+
+.hob{
+   font-family: cursive;
+}
+
+/* styling text */
+
+.heading{
+   color: azure;
+  
+   font-family: serif;
+}
+
+.pro-text{
+  font-family: humanist;
+  color: rgb(186, 184, 184);
+}
+
+/* coloring hobby text */
+
+.bg{
+
+   background-color: rgb(173, 168, 168);
+}
